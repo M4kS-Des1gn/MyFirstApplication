@@ -10,6 +10,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.google.android.material.snackbar.Snackbar;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -26,5 +28,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void showToast(View view) {
         Toast.makeText(this, "Button clicked via GUI!", Toast.LENGTH_SHORT).show();
+    }
+
+    public void showSnackbar(View view) {
+        View parentLayout = findViewById(R.id.main);
+        Snackbar.make(parentLayout, "Gumb je bil kliknjen!", Snackbar.LENGTH_SHORT).show();
     }
 }
