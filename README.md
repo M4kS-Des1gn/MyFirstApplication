@@ -1,4 +1,5 @@
 Moja Prva Android Aplikacija
+
       To je moja prva Android aplikacija, razvita v okolju Android Studio. Projekt služi kot uvodno učenje postavitve elementov (UI) in uporabe osnovnih gradnikov v Androidu.
 
 📱 Uporabljeni gradniki (UI Components)
