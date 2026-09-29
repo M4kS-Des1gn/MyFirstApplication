@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6796A1AB-3B48-35AC-3139-F34C9E9CC115" name="TEKMOVALEC">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:16:14 UTC</createdTime>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<engineerTo>
+<item key="B65AE3A5-AAAB-E0BD-FC78-A599B97624FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tekmovalec" id="9BB5D09C-1A2C-A1C9-37D4-ECA2D99265FB">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:16:22 UTC</createdTime>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<engineerTo>
+<item key="B65AE3A5-AAAB-E0BD-FC78-A599B97624FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="CCB00E86-C980-8073-52E4-7F06BC296445">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:16:35 UTC</createdTime>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<engineerTo>
+<item key="B65AE3A5-AAAB-E0BD-FC78-A599B97624FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="priimek" id="C32D7B3E-3F72-D374-75B3-4A5BC044B8EB">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:16:47 UTC</createdTime>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<engineerTo>
+<item key="B65AE3A5-AAAB-E0BD-FC78-A599B97624FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="380BBB72-3670-E6A9-5404-DE1948FADC79" name="TEKMOVALEC PK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:16:34 UTC</createdTime>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<engineerTo>
+<item key="B65AE3A5-AAAB-E0BD-FC78-A599B97624FF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9BB5D09C-1A2C-A1C9-37D4-ECA2D99265FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65892325-A054-8677-2920-02D97E1DF1AA" name="TEKMOVANJE">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:12:33 UTC</createdTime>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<engineerTo>
+<item key="B65AE3A5-AAAB-E0BD-FC78-A599B97624FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tekmovanja" id="6C4DE126-243D-FEE3-B7B3-0E1F2EEFA2D7">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:13:55 UTC</createdTime>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<engineerTo>
+<item key="B65AE3A5-AAAB-E0BD-FC78-A599B97624FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="predviden_cas_trajanja" id="52C33D3C-FE18-C87A-D811-69A1DA6FD15F">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:12:43 UTC</createdTime>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<engineerTo>
+<item key="B65AE3A5-AAAB-E0BD-FC78-A599B97624FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_cas_zacetka" id="054102F2-1EB4-FFA7-A664-35E30FCE7D53">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:13:07 UTC</createdTime>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<engineerTo>
+<item key="B65AE3A5-AAAB-E0BD-FC78-A599B97624FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime_tekmovanja" id="6F38886A-CC94-A6E7-DE99-312066F21530">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:13:26 UTC</createdTime>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<engineerTo>
+<item key="B65AE3A5-AAAB-E0BD-FC78-A599B97624FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_skakalnica" id="836D2E26-9258-6154-8C08-CEC24C2C856E">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:20:44 UTC</createdTime>
+<generatorID>D6F3B29F-85C9-9BC5-97D1-C862E74342C1</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<engineerTo>
+<item key="B65AE3A5-AAAB-E0BD-FC78-A599B97624FF" value="true"/>
+</engineerTo>
+<referedAttribute>010A0866-9A17-2ABA-0917-A2E081B4FB00</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEAE6D58-56AA-9B31-3B16-A21B755F88AB" name="TEKMOVANJE PK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:14:25 UTC</createdTime>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<engineerTo>
+<item key="B65AE3A5-AAAB-E0BD-FC78-A599B97624FF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C4DE126-243D-FEE3-B7B3-0E1F2EEFA2D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
