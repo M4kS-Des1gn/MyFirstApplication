@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FB87FDF-00FF-1C2E-0ABB-E1BD0DCF75DA" name="TEKMOVANJE">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>65892325-A054-8677-2920-02D97E1DF1AA</generatorID>
+<ownerDesignName>SKK_DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tekmovanja" id="A9616495-3DCA-73E1-8E8F-94178C675502">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>6C4DE126-243D-FEE3-B7B3-0E1F2EEFA2D7</generatorID>
+<ownerDesignName>SKK_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="predviden_cas_trajanja" id="E2F04F40-7FE7-FD5C-1A7A-64C002DEE4AD">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>52C33D3C-FE18-C87A-D811-69A1DA6FD15F</generatorID>
+<ownerDesignName>SKK_DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_cas_zacetka" id="10532713-7BE5-1417-0006-5111469A9D89">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>054102F2-1EB4-FFA7-A664-35E30FCE7D53</generatorID>
+<ownerDesignName>SKK_DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_tekmovanja" id="D04AD168-10C0-1AD7-1420-0F01437F477B">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>6F38886A-CC94-A6E7-DE99-312066F21530</generatorID>
+<ownerDesignName>SKK_DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SKAKALNICA_id_skakalnica" id="8861DF3A-C4E6-1B99-8EF7-874CD14A6073">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>836D2E26-9258-6154-8C08-CEC24C2C856E</generatorID>
+<ownerDesignName>SKK_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8EE83B83-F0FB-F574-520D-DBDB798D3F84" referredColumn="4E4AFD45-7129-93A7-FCFB-EF10964300AE"/>
+</associations>
+</Column>
+<Column name="VMESNA_VMESNA_ID" id="5E816993-69A9-0F2C-BF44-AA73DA39CBCF">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<ownerDesignName>SKK_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA4BB0D0-6092-FA9F-CE78-59B16792D129" referredColumn="9FF41C56-DB20-35AC-D6B2-15079107CFF4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C5F5970-6434-58AA-9155-594D56737C4A" name="TEKMOVANJE_PK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>DEAE6D58-56AA-9B31-3B16-A21B755F88AB</generatorID>
+<ownerDesignName>SKK_DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9616495-3DCA-73E1-8E8F-94178C675502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94650C9F-293D-57A4-66AD-B58269C79716" name="TEKMOVANJE_VMESNA_FK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>FC47F87B-81F2-542B-79ED-0D37075B2055</generatorID>
+<ownerDesignName>SKK_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E816993-69A9-0F2C-BF44-AA73DA39CBCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F717586A-DE26-6A9B-723C-17736C23CF80" name="TEKMOVANJE_SKAKALNICA_FK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>D6F3B29F-85C9-9BC5-97D1-C862E74342C1</generatorID>
+<ownerDesignName>SKK_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8861DF3A-C4E6-1B99-8EF7-874CD14A6073"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

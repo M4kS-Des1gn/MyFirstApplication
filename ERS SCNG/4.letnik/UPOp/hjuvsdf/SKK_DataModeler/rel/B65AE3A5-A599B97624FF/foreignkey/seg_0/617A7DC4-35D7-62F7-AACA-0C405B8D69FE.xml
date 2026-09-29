@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="617A7DC4-35D7-62F7-AACA-0C405B8D69FE" containerWithKeyObject="3AC8CE85-F5F4-3D41-5CBF-B9734D45E299" localFKIndex="E93B7304-4F5B-DB4A-E6B8-2B95068FA4BD" name="VMESNA_TEKMOVALEC_FK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>BB675BA4-90DA-F42E-5377-8C6AB61AD89A</generatorID>
+<ownerDesignName>SKK_DataModeler</ownerDesignName>
+<referredTableLongName>TEKMOVALEC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>02B4F99A-7579-EB08-5467-B51A31C21978</referredTableID>
+<keyObject>D79EF4ED-C4BA-F4C2-EC89-D3B59E568F26</keyObject>
+<referredKeyID>D79EF4ED-C4BA-F4C2-EC89-D3B59E568F26</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tekmovalec</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
