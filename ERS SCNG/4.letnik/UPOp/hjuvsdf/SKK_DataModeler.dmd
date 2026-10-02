@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SKK_DataModeler" id="2C0082EC-6281-05B3-A6DB-8D74464B482A" version="3.5">
-<createdBy>maksr</createdBy>
-<createdTime>2026-09-29 06:04:24 UTC</createdTime>
-<ownerDesignName>SKK_DataModeler</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>2C0082EC-6281-05B3-A6DB-8D74464B482A</designId>
-</OSDM_Design>
