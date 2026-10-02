@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My First Application</string>
+    <string name="button_text">Complete</string>
+    <string name="text_1">Mobile application!</string>
+    <string name="text_2">My mobile application!</string>
+    <string name="text_3">Strinjam se s pogoji uporabe</string>
+    <string name="text_4">M</string>
+    <string name="text_5">Ž</string>
+    <string name="floatBtn">Just another gumb</string>
+</resources>
