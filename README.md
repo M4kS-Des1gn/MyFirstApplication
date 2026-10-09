@@ -1,40 +1,86 @@
-Moja Prva Android Aplikacija
+# Android Interactive UI Application
 
-      To je moja prva Android aplikacija, razvita v okolju Android Studio. Projekt služi kot uvodno učenje postavitve elementov (UI) in uporabe osnovnih gradnikov v Androidu.
+## Description
 
-📱 Uporabljeni gradniki (UI Components)
-      Glavni zaslon (ConstraintLayout) vključuje naslednje elemente:
+This project is a simple Android application developed in Android Studio using Java and XML. It demonstrates the use of Android user interface components, including text views, buttons, checkboxes, radio buttons, and a Floating Action Button (FAB).
 
-      TextView (textView, textView2): Prikaz besedil in naslovov v aplikaciji (z velikim, krepkim pisalom).
-      
-      Button (button): Osnovni gumb za interakcijo z uporabnikom.
-      
-      CheckBox (checkBox): Polje za označevanje (potrditveno polje).
-      
-      RadioGroup & RadioButton (radioButton, radioButton2): Skupina izbirnih gumbov za medsebojno izključujoče se možnosti.
+The interface is built using `ConstraintLayout`, which allows the components to be positioned relative to one another and to the screen.
 
-      FloatingActionButton (floatingActionButton): Lebdeči gumb za hitro akcijo z ikono.
+## Features
 
-🛠️ Uporabljene tehnologije in koncepti
-      Jezik: XML (za postavitev uporabniškega vmesnika)
-      
-      Orodje: Android Studio
-      
-      Postavitev (Layout): ConstraintLayout (za prilagodljivo in moderno razporejanje elementov na zaslonu)
-      
-      Lokalizacija / Viri: Uporaba virov strings.xml (@string/...) za besedila v aplikaciji
+* **TextViews:** Display headings or other text defined in the application's string resources.
+* **RadioButtons:** Allow the user to select one option from a group.
+* **CheckBox:** Allows the user to select or deselect an option.
+* **Button:** Calls the `showSnackbar()` method when clicked.
+* **Floating Action Button:** Calls the `showToast()` method when clicked.
 
-🚀 Kako zagnati projekt
-      Prenesi ali kloniraj repozitorij na svoj računalnik.
-      
-      Odpri Android Studio.
-      
-      Izberi Open an Existing Project in poišči mapo s tem projektom.
-      
-      Počakaj, da Gradle sinhronizira vse knjižnice.
-      
-      Poveži svojo fizično napravo z vklobljenim USB Debuggingom ali zaženi Android Emulator.
-      
-      Klikni gumb Run (zeleni trikotnik / ▶), da zaženeš aplikacijo.
+## Technologies Used
 
-Opomba: Projekt je del mojega učenja in spoznavanja Android platforme.
+* **Programming language:** Java
+* **Development environment:** Android Studio
+* **Layout language:** XML
+* **Layout system:** AndroidX ConstraintLayout
+* **UI component library:** Google Material Components
+
+## Project Structure
+
+```text
+app/
+└── src/
+    └── main/
+        ├── java/
+        │   └── [package]/
+        │       └── MainActivity.java
+        ├── res/
+        │   ├── layout/
+        │   │   └── activity_main.xml
+        │   └── values/
+        │       └── strings.xml
+        └── AndroidManifest.xml
+```
+
+## User Interface Components
+
+| Component            | ID                     | Purpose                        |
+| -------------------- | ---------------------- | ------------------------------ |
+| TextView             | `textView`             | Displays the first heading     |
+| TextView             | `textView2`            | Displays the second heading    |
+| Button               | `button`               | Calls `showSnackbar()`         |
+| CheckBox             | `checkBox`             | Allows an option to be checked |
+| RadioButton          | `radioButton4`         | First selection option         |
+| RadioButton          | `radioButton3`         | Second selection option        |
+| FloatingActionButton | `floatingActionButton` | Calls `showToast()`            |
+
+## How It Works
+
+1. The application displays the interface defined in `activity_main.xml`.
+2. The user can interact with the checkbox and radio buttons.
+3. Pressing the main button invokes the `showSnackbar()` method.
+4. Pressing the Floating Action Button invokes the `showToast()` method.
+
+The Java methods must be implemented in `MainActivity.java` for both button actions to work correctly.
+
+## How to Run
+
+1. Open the project in Android Studio.
+2. Allow Gradle to sync and download the required dependencies.
+3. Connect an Android device or start an emulator.
+4. Click **Run** to build and launch the application.
+
+## Learning Objectives
+
+* Creating Android layouts using XML.
+* Positioning elements with `ConstraintLayout`.
+* Using buttons and selection controls.
+* Connecting XML event handlers to Java methods.
+* Working with Android Material Design components.
+
+## Notes
+
+* Text displayed in the interface is defined through string resources in `res/values/strings.xml`.
+* The `showSnackbar()` and `showToast()` methods must have the correct implementation in `MainActivity.java`.
+* The project requires the appropriate AndroidX ConstraintLayout and Material Components dependencies.
+
+## Author
+
+Created as a learning project for practicing Android application development with Java and XML.
