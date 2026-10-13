@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AB37E91-8D8E-F518-F451-1DFA3410E927" name="vmesna">
+<sourceDDLFile>skoki_sqldeveloper.sql</sourceDDLFile>
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<importedID>058F1B82-957D-9D13-ADE3-844847C0F5C4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tekmovanja" id="8B747364-AC0F-9030-AD7C-59DFEBB0A8AA">
+<sourceDDLFile>skoki_sqldeveloper.sql</sourceDDLFile>
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<importedID>EEBDDF3E-DF62-319F-D685-F8F9188DBD53</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D040F603-AE50-71D6-A943-1CA49419A70D" referredColumn="48BA3249-0A7A-376E-E3CF-9B1538F3BEE0"/>
+</associations>
+</Column>
+<Column name="id_tekmovalec" id="AB70B8C6-F92A-E243-5463-F227B035BA53">
+<sourceDDLFile>skoki_sqldeveloper.sql</sourceDDLFile>
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<importedID>DE182900-279D-DDEB-0A34-6326B11DF4D2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5418085-4281-EDCB-6ABD-5C36ECD2CB96" referredColumn="024AD420-8B2D-465F-CEBA-33D938129EB4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3752819E-F47C-FA23-D8F4-345B07C52E5A" name="vmesna_PK">
+<sourceDDLFile>skoki_sqldeveloper.sql</sourceDDLFile>
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<importedID>FE55B4DD-8CD3-496F-38FD-C8C1B782BF07</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B747364-AC0F-9030-AD7C-59DFEBB0A8AA"/>
+<colUsage columnID="AB70B8C6-F92A-E243-5463-F227B035BA53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20394DFE-FDCF-2A81-AF1F-0BB8C015FAE5" name="vmesna_tekmovalec_FK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB70B8C6-F92A-E243-5463-F227B035BA53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C3CC04F-F1C6-7647-4C73-EBCF765A95C7" name="vmesna_tekmovanje_FK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B747364-AC0F-9030-AD7C-59DFEBB0A8AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

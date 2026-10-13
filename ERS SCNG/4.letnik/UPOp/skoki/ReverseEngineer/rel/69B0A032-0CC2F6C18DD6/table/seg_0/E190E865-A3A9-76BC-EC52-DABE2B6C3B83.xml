@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E190E865-A3A9-76BC-EC52-DABE2B6C3B83" name="drzava">
+<sourceDDLFile>skoki_sqldeveloper.sql</sourceDDLFile>
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<importedID>0055F6BE-2ABD-9591-09A6-6DD90AED0DF9</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_drzava" id="73B23D02-52FF-1E60-19CF-6AC3757EF36B">
+<sourceDDLFile>skoki_sqldeveloper.sql</sourceDDLFile>
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<importedID>9A84D0D3-66B6-BF94-4752-94B9695D8B86</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_drzave" id="9994C48E-5188-C924-FCF3-F67C174518BE">
+<sourceDDLFile>skoki_sqldeveloper.sql</sourceDDLFile>
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<importedID>146AED67-DFD4-5F77-9214-79F062589BBF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D17BC0DB-C3F9-0042-F8A9-2645E0646588</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E9489A3-04BC-D173-F6ED-A7F8F738A2F6" name="drzava_PK">
+<sourceDDLFile>skoki_sqldeveloper.sql</sourceDDLFile>
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<importedID>28EA1A4A-C6B1-2F17-715A-272F815E0363</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73B23D02-52FF-1E60-19CF-6AC3757EF36B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

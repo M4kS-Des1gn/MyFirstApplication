@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ReverseEngineer" id="A02B72E5-EF0C-6F46-1649-84D110BAA564" version="3.5">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:16:45 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A02B72E5-EF0C-6F46-1649-84D110BAA564</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2263AFC4-363A-A4DE-7E0A-9D4327B0BD47">
+<designStoragePath>E:\skoki_sqldeveloper</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

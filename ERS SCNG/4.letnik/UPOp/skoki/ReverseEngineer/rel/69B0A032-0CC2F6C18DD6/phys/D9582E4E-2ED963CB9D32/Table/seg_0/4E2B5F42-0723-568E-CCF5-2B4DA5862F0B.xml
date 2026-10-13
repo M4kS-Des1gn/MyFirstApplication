@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="tekmovalec" directorySegmentName="seg_0" id="4E2B5F42-0723-568E-CCF5-2B4DA5862F0B">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_tekmovalec" id="024AD420-8B2D-465F-CEBA-33D938129EB4">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="priimek" id="2FA41C8E-D0AD-F798-9265-5A62475C47C6">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_drzava" id="5379BCF3-7C0E-D1A3-4281-00755E7126AF">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ime" id="78E7EE51-8982-AE07-C549-5A86DBCC4CE5">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="drzava_tekmovalec_FK" id="46193016-76D3-7B9E-8751-990CB0A823CE">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="tekmovalec_PK" id="ECCE0EA3-57D5-62E1-12F8-337CE09AF09C">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A90DE1FA-EEC1-6849-0DEE-2462986C4FBB" name="tekmovanje">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>09C66998-175D-DD15-9FE6-46D5C3BF527C</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id tekmovanja" id="DA72E9E2-6060-C860-BDC8-82ABC67BF29B">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>48BA3249-0A7A-376E-E3CF-9B1538F3BEE0</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="predviden cas trajanja" id="178BA28E-774A-6629-41A9-CCE5733A97B1">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>1CCCBD80-DBD8-4745-9C4D-1C3A491D6FCD</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0CDFE5F2-4469-9F82-3602-9DFC00D4E91B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum cas zacetka" id="D77B9561-79F8-486B-D521-2B20BEA515FC">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>A09A8808-9E82-D1FF-F3D1-C8F27B2897DA</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0CDFE5F2-4469-9F82-3602-9DFC00D4E91B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime tekmovanja" id="51BA50A1-35A2-D13C-FBBE-8C6444ADE809">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>072B4D92-73BD-E3C4-1A9B-F22D80FAC66B</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D17BC0DB-C3F9-0042-F8A9-2645E0646588</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id skakalnica" id="1C692DA4-C58A-D9D7-6DFF-765BE6C9EAB0">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>C501140D-0E1D-7C21-8C2B-78D5D916C1B7</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<referedAttribute>7B94767B-C414-AC29-782D-959F2E341976</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id drzava" id="C4FBED29-C9F0-791B-FE37-338DF1722ADC">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>7BC880B2-3DB9-38A1-B663-2D463E25CE9D</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<referedAttribute>CFBC78F8-8EF4-1394-5400-96E5AB440228</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDCD5F4B-E5AF-2411-E249-973724AF0826" name="tekmovanje PK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>03BBF6F4-3571-776A-8597-49B98488C392</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DA72E9E2-6060-C860-BDC8-82ABC67BF29B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

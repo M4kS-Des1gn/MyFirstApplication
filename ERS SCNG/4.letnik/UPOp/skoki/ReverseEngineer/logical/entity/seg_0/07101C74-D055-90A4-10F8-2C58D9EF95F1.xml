@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07101C74-D055-90A4-10F8-2C58D9EF95F1" name="skakalnica">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>19E55D60-D8C5-750A-06B7-CC5232585E26</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id skakalnica" id="7B94767B-C414-AC29-782D-959F2E341976">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>A1E3F8EA-7357-A67C-5018-8E191BB1930B</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dolzina" id="2A0B9CE1-2D77-0C49-DB9F-E5901D6EC477">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>8CFF42DC-A0A1-ABF8-53E2-820182AF2AA5</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime skakalnice" id="3268A310-46F5-8E34-2CC8-DCB7C0697195">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>67A21B3D-CC85-19C9-69F4-6935053C908B</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D17BC0DB-C3F9-0042-F8A9-2645E0646588</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09FD99DC-5210-5430-20FA-7292B8481183" name="skakalnica PK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>A49561D8-13C6-EE87-9EE1-F093361E893F</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B94767B-C414-AC29-782D-959F2E341976</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" mainViewID="5761DFE8-23AF-345E-2131-225884C0A526">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:16:46 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>D9582E4E-79E2-319F-387A-2ED963CB9D32</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>skoki_sqldeveloper.sql</fileName>
+<pathName>E:\ERS SCNG\4.letnik\UPOp\skoki</pathName>
+<dbType>8</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

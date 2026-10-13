@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07D37E01-6AC4-A27F-9809-F05D6497C9E8" name="tekmovalec">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>4E2B5F42-0723-568E-CCF5-2B4DA5862F0B</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id tekmovalec" id="82A0DFC1-2D7D-DEF9-CF31-BE8F1CC2ED29">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>024AD420-8B2D-465F-CEBA-33D938129EB4</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="3854BC3C-7D4F-AF36-AB5F-7C6A22C240C3">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>78E7EE51-8982-AE07-C549-5A86DBCC4CE5</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D17BC0DB-C3F9-0042-F8A9-2645E0646588</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="priimek" id="FB73F27B-77E1-BC14-F6A1-AE291553342E">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>2FA41C8E-D0AD-F798-9265-5A62475C47C6</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D17BC0DB-C3F9-0042-F8A9-2645E0646588</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id drzava" id="9436416C-37AF-3DFC-0432-2F06D1074845">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>1899C7A3-EF0B-B1B6-992A-1361F6634B4E</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<referedAttribute>CFBC78F8-8EF4-1394-5400-96E5AB440228</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05CCE264-B3C5-7472-43F1-16AFD5768FC3" name="tekmovalec PK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>ECCE0EA3-57D5-62E1-12F8-337CE09AF09C</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>82A0DFC1-2D7D-DEF9-CF31-BE8F1CC2ED29</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

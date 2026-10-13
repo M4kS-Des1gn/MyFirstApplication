@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D76713C0-9ADD-DA4A-0BB9-8829EED1F315" name="skok">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>86CC2994-2A3F-C97F-30B1-93329F0657EC</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id skok" id="EDDB0196-5A98-FD57-EA3F-003D08CAC248">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>8009E95E-BEC5-46E5-7C37-B5A9209371F6</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ocena" id="65C80F7F-257F-F9C6-5EC9-3737CD5687C9">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>9CF9880F-2E75-0BF1-75F7-23EEA2CE28CA</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dolzina skoka" id="16494363-33C2-D29B-2B95-13BB8FBB9C06">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>4AC8A9F2-3D55-1381-BF70-D10040B362BA</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zaporedna stevilka" id="DB7EC87A-2A37-61D0-11D4-CC2EAA9BC5F5">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>3FBF7DCE-9395-CBC6-0300-2241677E7375</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id tekmovanja" id="07EF81D7-97CE-830C-F387-662C9D3763AD">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>E8CF824F-EDA1-0B28-705C-E53454F932CB</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<referedAttribute>AE954D22-08CF-F111-9D5F-FA134B7283A7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id tekmovalec" id="C5519786-3D8A-D4BD-1A36-E97574D21F85">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>E8CF824F-EDA1-0B28-705C-E53454F932CB</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<referedAttribute>15C5982D-0946-18FB-E645-F741B9D8BF20</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>78E1F8FC-A22A-6704-4714-E5F7D03FC02C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8F62B244-511C-4C82-69E5-374309813FEB" name="skok PK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>C05B0DDE-4594-93EE-E761-4DAE9B09601D</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EDDB0196-5A98-FD57-EA3F-003D08CAC248</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

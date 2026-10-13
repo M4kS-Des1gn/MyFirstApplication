@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="drzava_tekmovalec_FK" directorySegmentName="seg_0" id="1899C7A3-EF0B-B1B6-992A-1361F6634B4E">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>095C2486-44B9-094D-3FE7-9104CEC0A0E6</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<sourcePk>DABAF2D8-6D26-F322-93F9-269738A81AF3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2423E6B2-121C-B5D9-B955-AFC4C97381C5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>07D37E01-6AC4-A27F-9809-F05D6497C9E8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

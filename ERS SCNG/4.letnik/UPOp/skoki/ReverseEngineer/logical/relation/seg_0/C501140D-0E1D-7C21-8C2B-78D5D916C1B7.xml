@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="skakalnica_FK" directorySegmentName="seg_0" id="C501140D-0E1D-7C21-8C2B-78D5D916C1B7">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>F3DE3144-2A21-819C-A3FE-28DE0B0E8D15</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<sourcePk>09FD99DC-5210-5430-20FA-7292B8481183</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>07101C74-D055-90A4-10F8-2C58D9EF95F1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A90DE1FA-EEC1-6849-0DEE-2462986C4FBB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

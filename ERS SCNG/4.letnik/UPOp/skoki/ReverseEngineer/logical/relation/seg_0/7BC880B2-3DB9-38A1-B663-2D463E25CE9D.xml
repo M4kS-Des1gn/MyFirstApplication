@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="drzava_FK" directorySegmentName="seg_0" id="7BC880B2-3DB9-38A1-B663-2D463E25CE9D">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>0B3DAE22-BF96-2F4C-DAD8-EAFA2A4A0CF1</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<sourcePk>DABAF2D8-6D26-F322-93F9-269738A81AF3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2423E6B2-121C-B5D9-B955-AFC4C97381C5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A90DE1FA-EEC1-6849-0DEE-2462986C4FBB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="skok_vmesna_FK" directorySegmentName="seg_0" id="E8CF824F-EDA1-0B28-705C-E53454F932CB">
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:18:02 UTC</createdTime>
+<generatorID>03E60B61-4C00-C576-8369-3C53450A6750</generatorID>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<engineerTo>
+<item key="69B0A032-C14C-E0DE-0A7A-0CC2F6C18DD6" value="true"/>
+</engineerTo>
+<sourcePk>06D4005B-E872-5580-4B71-215EF5F8E0FE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF68364A-C188-43C5-837C-11BE77243989</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D76713C0-9ADD-DA4A-0BB9-8829EED1F315</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

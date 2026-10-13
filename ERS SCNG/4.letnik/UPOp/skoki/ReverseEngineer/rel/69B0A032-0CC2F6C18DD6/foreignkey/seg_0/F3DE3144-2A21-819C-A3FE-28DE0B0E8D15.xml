@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F3DE3144-2A21-819C-A3FE-28DE0B0E8D15" containerWithKeyObject="09C66998-175D-DD15-9FE6-46D5C3BF527C" localFKIndex="192E16C2-56BE-F46D-9D7B-4D4BA0D00315" name="skakalnica_FK">
+<sourceDDLFile>skoki_sqldeveloper.sql</sourceDDLFile>
+<createdBy>maksr</createdBy>
+<createdTime>2026-10-13 07:17:27 UTC</createdTime>
+<ownerDesignName>ReverseEngineer</ownerDesignName>
+<importedID>4F066F89-EEDC-FD70-4E7F-F30CBECB88A3</importedID>
+<referredTableLongName>skakalnica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>19E55D60-D8C5-750A-06B7-CC5232585E26</referredTableID>
+<keyObject>A49561D8-13C6-EE87-9EE1-F093361E893F</keyObject>
+<referredKeyID>A49561D8-13C6-EE87-9EE1-F093361E893F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_skakalnica</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
