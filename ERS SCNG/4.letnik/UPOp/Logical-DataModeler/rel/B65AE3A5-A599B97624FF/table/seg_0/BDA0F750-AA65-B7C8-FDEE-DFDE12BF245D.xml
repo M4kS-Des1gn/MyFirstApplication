@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDA0F750-AA65-B7C8-FDEE-DFDE12BF245D" name="SKAKALNICA">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>DA8F9CA6-C27B-A545-A5EA-D25A597EE1D6</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_skakalnica" id="4E4AFD45-7129-93A7-FCFB-EF10964300AE">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>010A0866-9A17-2ABA-0917-A2E081B4FB00</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dolzina" id="764F3B11-700B-82D2-0A26-C93A4A989199">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>AB266BBB-1150-A6CB-F9C0-F540FE77D5CD</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_skakalnice" id="F5DFF5E1-54F6-C448-E21F-9DE2986058AE">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>6685E917-EF37-FCC4-8CFB-C25633B3C178</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC07BB92-11DE-770E-5198-F1BBFF08C240" name="SKAKALNICA_PK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>DF7CB662-413E-A56D-BB40-15DACE9B5FC7</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E4AFD45-7129-93A7-FCFB-EF10964300AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

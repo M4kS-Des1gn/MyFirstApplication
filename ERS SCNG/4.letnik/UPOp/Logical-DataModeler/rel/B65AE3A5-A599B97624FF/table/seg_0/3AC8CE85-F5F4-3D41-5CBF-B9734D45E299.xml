@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AC8CE85-F5F4-3D41-5CBF-B9734D45E299" name="VMESNA">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>507A8388-CE91-1E5C-E13E-7AC2224FCC49</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SKOK_id_skok" id="F0B13FB2-D43C-3A6B-7AEB-3953D3A9BA88">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>559BCDFC-B865-6C41-2814-E647E716FB61</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FA1B28E-AC3C-4711-3D11-9CB1352CC818" referredColumn="BA19FAE4-9034-DEE8-E815-1C601BAAA3F2"/>
+</associations>
+</Column>
+<Column name="TEKMOVALEC_id_tekmovalec" id="AA53BBA4-280E-1F1A-2EB4-8A06B36A5259">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>8F2B6E15-1498-26B3-2AA2-3CD8BA6841BE</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="617A7DC4-35D7-62F7-AACA-0C405B8D69FE" referredColumn="B1C9EBAA-C235-2008-1290-F08B508862B2"/>
+</associations>
+</Column>
+<Column name="VMESNA_ID" id="9FF41C56-DB20-35AC-D6B2-15079107CFF4">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F88756F-3AA7-EE81-5399-09D1785B9BB3" name="VMESNA_PK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="9FF41C56-DB20-35AC-D6B2-15079107CFF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD6D2BAA-95DA-5390-2E11-182E051E062D" name="VMESNA_SKOK_FK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>98AF4A17-D5DA-0229-9304-A84D0C3D12A5</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0B13FB2-D43C-3A6B-7AEB-3953D3A9BA88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E93B7304-4F5B-DB4A-E6B8-2B95068FA4BD" name="VMESNA_TEKMOVALEC_FK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>BB675BA4-90DA-F42E-5377-8C6AB61AD89A</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA53BBA4-280E-1F1A-2EB4-8A06B36A5259"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

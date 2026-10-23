@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02B4F99A-7579-EB08-5467-B51A31C21978" name="TEKMOVALEC">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>6796A1AB-3B48-35AC-3139-F34C9E9CC115</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tekmovalec" id="B1C9EBAA-C235-2008-1290-F08B508862B2">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>9BB5D09C-1A2C-A1C9-37D4-ECA2D99265FB</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="1222FE63-2019-1533-47E2-A83E6FF71A62">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>CCB00E86-C980-8073-52E4-7F06BC296445</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="priimek" id="D7AC0F75-A3B0-9C76-2294-BC433A702F30">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>C32D7B3E-3F72-D374-75B3-4A5BC044B8EB</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D79EF4ED-C4BA-F4C2-EC89-D3B59E568F26" name="TEKMOVALEC_PK">
+<createdBy>maksr</createdBy>
+<createdTime>2026-09-29 06:24:11 UTC</createdTime>
+<generatorID>380BBB72-3670-E6A9-5404-DE1948FADC79</generatorID>
+<ownerDesignName>Logical-DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1C9EBAA-C235-2008-1290-F08B508862B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
