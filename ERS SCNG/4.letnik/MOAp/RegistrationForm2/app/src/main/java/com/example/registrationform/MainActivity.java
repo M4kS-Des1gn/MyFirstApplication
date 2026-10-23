@@ -13,7 +13,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    // Vnosna polja
     EditText etUsername;
     EditText etFullName;
     EditText etCountry;
@@ -21,25 +20,22 @@ public class MainActivity extends AppCompatActivity {
     EditText etPhone;
     EditText etPassword;
 
-    // Gender
     RadioGroup radioGroup;
     RadioButton rbMale;
     RadioButton rbFemale;
 
-    // Terms & Conditions
     CheckBox cbTerms;
 
-    // Gumb
     Button btnCreateAccount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Povežemo Java kodo z activity_main.xml
+        // povezava Java - activity_main.xml
         setContentView(R.layout.activity_main);
 
-        // Povezava EditText elementov
+        // et - editText
         etUsername = findViewById(R.id.etUsername);
         etFullName = findViewById(R.id.etFullName);
         etCountry = findViewById(R.id.etCountry);
@@ -47,18 +43,14 @@ public class MainActivity extends AppCompatActivity {
         etPhone = findViewById(R.id.etPhone);
         etPassword = findViewById(R.id.etPassword);
 
-        // Povezava Gender elementov
         radioGroup = findViewById(R.id.radioGroup);
         rbMale = findViewById(R.id.rbMale);
         rbFemale = findViewById(R.id.rbFemale);
 
-        // Povezava CheckBox-a
         cbTerms = findViewById(R.id.cbTerms);
 
-        // Povezava gumba
         btnCreateAccount = findViewById(R.id.btnCreateAccount);
 
-        // Ko uporabnik klikne Create account
         btnCreateAccount.setOnClickListener(v -> {
 
             // Preberemo podatke iz vnosnih polj
@@ -69,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
             String phone = etPhone.getText().toString();
             String password = etPassword.getText().toString();
 
-            // Ugotovimo izbrani spol
             String gender;
 
             int selectedId = radioGroup.getCheckedRadioButtonId();
@@ -82,7 +73,6 @@ public class MainActivity extends AppCompatActivity {
                 gender = "Not selected";
             }
 
-            // Preverimo Terms & Conditions
             String termsAccepted;
 
             if (cbTerms.isChecked()) {
@@ -91,7 +81,6 @@ public class MainActivity extends AppCompatActivity {
                 termsAccepted = "No";
             }
 
-            // Sestavimo vse podatke za prikaz
             String details =
                     "Username: " + username + "\n" +
                             "Full name: " + fullName + "\n" +
@@ -102,7 +91,6 @@ public class MainActivity extends AppCompatActivity {
                             "Gender: " + gender + "\n" +
                             "Terms Accepted: " + termsAccepted;
 
-            // Ustvarimo pogovorno okno
             new AlertDialog.Builder(MainActivity.this)
                     .setTitle("Registration Details")
                     .setMessage(details)
